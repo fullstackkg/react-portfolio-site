@@ -1,0 +1,30 @@
+.button-container {
+  display: flex;
+  gap: 1rem;
+  border: 2px solid red;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.button-container button {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition-duration);
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.button-container button:active {
+  background-color: #003d80;
+  transform: scale(0.95);
+}

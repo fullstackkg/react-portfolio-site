@@ -1,0 +1,20 @@
+.personal-card {
+  padding: 1rem;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+.personal-card h2 {
+  font-size: 1.75rem;
+}
