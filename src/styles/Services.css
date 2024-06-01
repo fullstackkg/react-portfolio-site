@@ -1,0 +1,10 @@
+.services {
+  max-width: 90%;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.services h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}

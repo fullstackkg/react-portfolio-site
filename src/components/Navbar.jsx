@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
+import KGLogo from "../assets/images/kg-logo-vector.jpg";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -7,6 +8,9 @@ function Navbar() {
     <nav>
       <div className="nav-center">
         <ul>
+          <li>
+            <img id="kg-logo" src={KGLogo} alt="My personal logo" />
+          </li>
           <li>
             <Link to="/">Home</Link>
           </li>

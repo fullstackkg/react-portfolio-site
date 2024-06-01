@@ -1,0 +1,31 @@
+.contact-form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-content {
+  margin-bottom: 1rem;
+}
+
+.form-content label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-content input,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}

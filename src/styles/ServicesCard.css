@@ -1,0 +1,12 @@
+.services-card {
+  margin-bottom: 3rem;
+}
+
+.services-card h2 {
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.services-card p {
+  margin-top: 0.25rem;
+}

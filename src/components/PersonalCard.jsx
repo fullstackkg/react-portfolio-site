@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/PersonalCard.css";
-import headshotPic from "../assets/images/headshot1.jpg";
+import headshotPic from "../assets/images/linkedin-photo.jpeg";
 
 function PersonalCard() {
   return (

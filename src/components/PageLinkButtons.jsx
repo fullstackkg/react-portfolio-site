@@ -16,7 +16,7 @@ function PageLinkButtons() {
         </Link>
       </button>
       <button type="button" className="button">
-        <Link to="/" className="page-link-buttons">
+        <Link to="/projects" className="page-link-buttons">
           Projects
         </Link>
       </button>

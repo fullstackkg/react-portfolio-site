@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import PersonalCard from "../components/PersonalCard";
 import PageLinkButtons from "../components/PageLinkButtons";
 import "../styles/Home.css";
