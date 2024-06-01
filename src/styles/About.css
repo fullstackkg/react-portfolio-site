@@ -1,0 +1,77 @@
+.about {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about-me-content {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-photo-container {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+}
+
+.profile-photo-container img {
+  border-radius: 50%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  gap: 1.5rem;
+}
+
+.links button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.links button:active {
+  background-color: #003d80;
+  transform: scale(0.95);
+}
+
+.links a {
+  color: black;
+}
+
+.links a:hover {
+  color: #0056b3;
+}
+
+.github-icon {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+#resume-link {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition-duration);
+}
+
+#resume-link:hover {
+  background-color: #0056b3;
+}

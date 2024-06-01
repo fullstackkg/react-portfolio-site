@@ -7,7 +7,6 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div className="home">
-      <Navbar />
       <PersonalCard />
       <PageLinkButtons />
       <div className="home-content">
