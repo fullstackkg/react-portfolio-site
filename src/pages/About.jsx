@@ -21,7 +21,7 @@ function About() {
           and applying them to real-world challenges.
         </p>
         <div className="links">
-          <a href="../public/kgresume.pdf" id="resume-link">
+          <a href="../public/kgresume.pdf" id="resume-link" className="button">
             Resume
           </a>
           <div>

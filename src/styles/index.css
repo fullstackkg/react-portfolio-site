@@ -21,7 +21,7 @@ img {
   object-fit: cover;
 }
 
-button {
+.button {
   display: inline-block;
   padding: 0.625rem 1.25rem;
   font-size: 1rem;

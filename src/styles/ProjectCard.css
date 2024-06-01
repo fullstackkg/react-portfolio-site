@@ -1,0 +1,21 @@
+.project-card-image {
+  height: 400px;
+  border-radius: 8px;
+}
+
+.project-card-image img {
+  object-position: center;
+  border-radius: 8px;
+}
+
+.project-card-content {
+  padding: 1rem;
+}
+
+.project-card {
+  margin-bottom: 2.5rem;
+}
+
+.project-card-project-link {
+  margin-top: 1rem;
+}

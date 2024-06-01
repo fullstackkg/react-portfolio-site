@@ -5,27 +5,27 @@ import { Link } from "react-router-dom";
 function PageLinkButtons() {
   return (
     <div className="button-container">
-      <button type="button">
+      <button type="button" className="button">
         <Link to="/" className="page-link-buttons">
           Home
         </Link>
       </button>
-      <button type="button">
+      <button type="button" className="button">
         <Link to="/about" className="page-link-buttons">
           About
         </Link>
       </button>
-      <button type="button">
+      <button type="button" className="button">
         <Link to="/" className="page-link-buttons">
           Projects
         </Link>
       </button>
-      <button type="button">
+      <button type="button" className="button">
         <Link to="/services" className="page-link-buttons">
           Services
         </Link>
       </button>
-      <button type="button">
+      <button type="button" className="button">
         <Link to="/contact" className="page-link-buttons">
           Contact
         </Link>

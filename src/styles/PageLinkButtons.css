@@ -5,12 +5,12 @@
   margin: 0.5rem 0 2rem 0;
 }
 
-.button-container button:hover {
+.button:hover {
   background-color: #0056b3;
   transform: scale(1.05);
 }
 
-.button-container button:active {
+.button:active {
   background-color: #003d80;
   transform: scale(0.95);
 }

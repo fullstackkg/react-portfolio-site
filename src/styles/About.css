@@ -1,20 +1,20 @@
 .about {
   max-width: 90%;
+  width: 80%;
   margin: 2rem auto;
 }
 
 .about h1 {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .about-me-content {
-  width: 80%;
-  margin: 1rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .profile-photo-container {
@@ -45,11 +45,7 @@
   transform: scale(0.95);
 }
 
-.links a {
-  color: black;
-}
-
-.links a:hover {
+.github-icon:hover {
   color: #0056b3;
 }
 
@@ -57,21 +53,13 @@
   font-size: 3rem;
   padding: 0;
   margin: 0;
+  color: black;
 }
 
-#resume-link {
-  display: inline-block;
-  padding: 0.625rem 1.25rem;
-  font-size: 1rem;
+.button {
   color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: var(--transition-duration);
 }
 
-#resume-link:hover {
+.button:hover {
   background-color: #0056b3;
 }
